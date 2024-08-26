@@ -164,7 +164,7 @@ Contributer @Gravityrail kindly submitted a script that sets up Torchserve local
 ```bash
 cd torchserve
 ./setup_macos.sh
-torchserve --start --ts-config config.local.properties --foreground
+torchserve --start --ts-config config.local.properties --foreground  --disable-token-auth
 ```
 
 With torchserve running locally like this, you can use the same command as before to make the garlic dance:
